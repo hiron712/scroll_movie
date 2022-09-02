@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+.video_wrap{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;;
+}
+.video{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+.video video{
+    height: 100%;
+}
+.content{
+    position: relative;
+}
+section{
+    padding: 10vh 0;
+    position: relative;
+    z-index: 2;
+}
+section div{
+    border: 5px solid #ffffff;
+    background-color: #ffffff88;
+    max-width: 1024px;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 0 2vw;
+}
